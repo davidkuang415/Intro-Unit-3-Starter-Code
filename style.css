@@ -1,0 +1,154 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+
+}
+
+img {
+    width: 350px;
+  
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons2 {
+    display: none;
+    justify-content: space-evenly;
+}
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+.title {
+  color: #ffff00;
+  text-shadow: 1px 1px 2px #ff0000, 0 0 1em blueviolet, 0 0 0.2em blueviolet;
+  outline: 2px black;
+}
+.first {
+  color: red;
+}
+.saveherbutton {
+  font-size: 35px;
+  font-family: monospace;
+  color: #d95e72;
+  background-color: lightblue;
+}
+.ignorebutton {
+  font-size: 35px;
+  font-family: monospace;
+  color: #d95e72;
+  background-color: lightblue;
+}
+.ignorebutton:hover {
+  background-color: #68848d
+}
+.saveherbutton:hover {
+  background-color: #68848d
+}
+
+.fightbowbutton {
+  font-size: 15px;
+  font-family: monospace;
+  color: #d95e72;
+  background-color: lightblue;
+}
+.fightswordbutton {
+  font-size: 15px;
+  font-family: monospace;
+  color: #d95e72;
+  background-color: lightblue;
+}
+.fightbowbutton:hover {
+  background-color: #68848d ;
+}
+.fightswordbutton:hover {
+  background-color: #68848d ;
+}
+.bowserpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.goaboutdaybutton {
+  font-size: 20px;
+  font-family: monospace;
+  color: #d95e72;
+  background-color: lightblue;
+}
+.goinsidebutton {
+  font-size: 20px;
+  font-family: monospace;
+  color: #d95e72;
+  background-color: lightblue;
+}
+.goaboutdaybutton:hover {
+  background-color: #68848d;
+}
+.goinsidebutton:hover {
+  background-color: #68848d;
+}
+.plant {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+/* 
+.story-opening{
+   display:none;
+}
+*/
+
+/* 
+.buttons{
+   display:none;
+}
+*/
+
+
+.option-one-screen{
+   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* 
+.open-two-screen{
+   display:none;
+}
+*/
+
+/* 
+.open-one-end{
+   display:none;
+}
+*/
+
+/* 
+.open-two-end{
+   display:none;
+}
+*/
